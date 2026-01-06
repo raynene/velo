@@ -23,13 +23,9 @@ jobs:
           exit 0
         fi
     
-    # 🔥 CRITICAL FIX: Checkout with write permissions
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        # If you created VELO_PUSH_TOKEN secret, use it:
-        # token: ${{ secrets.VELO_PUSH_TOKEN }}
-        # Otherwise use default:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
     
@@ -59,29 +55,28 @@ jobs:
         DAY_NUM=$(date -u +'%d')
         TIME=$(date -u +'%H-%M-%S')
         
-        mkdir -p "VÉLO-BLAST/day-${DAY_NUM}"
+        mkdir -p "VELO-DATA/day-${DAY_NUM}"
         
-        cp velo_results.json "VÉLO-BLAST/day-${DAY_NUM}/velo_${DATE}_${TIME}.json"
-        cp velo_summary.txt "VÉLO-BLAST/day-${DAY_NUM}/velo_summary_${DATE}_${TIME}.txt"
+        cp velo_results.json "VELO-DATA/day-${DAY_NUM}/velo_${DATE}_${TIME}.json"
+        cp velo_summary.txt "VELO-DATA/day-${DAY_NUM}/summary_${DATE}_${TIME}.txt"
         
-        cp velo_results.json "VÉLO-BLAST/day-${DAY_NUM}/LATEST.json"
-        cp velo_summary.txt "VÉLO-BLAST/day-${DAY_NUM}/LATEST.txt"
+        # Keep latest copy
+        cp velo_results.json "VELO-DATA/day-${DAY_NUM}/LATEST.json"
+        cp velo_summary.txt "VELO-DATA/day-${DAY_NUM}/LATEST.txt"
         
         # Create daily README
-        echo "# 🚲 VÉLO PARKING DATA - Day ${DAY_NUM} (${DATE})" > "VÉLO-BLAST/day-${DAY_NUM}/README.md"
-        echo "" >> "VÉLO-BLAST/day-${DAY_NUM}/README.md"
-        echo "## Collection Times:" >> "VÉLO-BLAST/day-${DAY_NUM}/README.md"
-        ls "VÉLO-BLAST/day-${DAY_NUM}/"velo_*.json 2>/dev/null | sort | while read file; do
+        echo "# 🚲 VÉLO PARKING DATA - Day ${DAY_NUM} (${DATE})" > "VELO-DATA/day-${DAY_NUM}/README.md"
+        echo "" >> "VELO-DATA/day-${DAY_NUM}/README.md"
+        echo "## Collection Times:" >> "VELO-DATA/day-${DAY_NUM}/README.md"
+        ls "VELO-DATA/day-${DAY_NUM}/"velo_*.json 2>/dev/null | sort | while read file; do
           time=$(basename "$file" | cut -d'_' -f3- | cut -d'.' -f1)
-          echo "- ${time}" >> "VÉLO-BLAST/day-${DAY_NUM}/README.md"
+          echo "- ${time}" >> "VELO-DATA/day-${DAY_NUM}/README.md"
         done || true
     
     - name: Configure Git
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        # Set correct remote URL for raynene/velo
-        git remote set-url origin https://github.com/raynene/velo.git
     
     - name: Check for changes
       id: check_changes
@@ -92,17 +87,12 @@ jobs:
           echo "has_changes=false" >> $GITHUB_OUTPUT
         fi
     
-    # 🔥 CRITICAL FIX: Force push with explicit permissions
     - name: Commit and push vélo data
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
         git add .
-        git commit -m "🚲 VÉLO COLLECTION: Day $(date -u +'%d') - $(date -u +'%H:%M UTC') [Run ${{ github.run_number }}/84]"
-        # FORCE PUSH with credentials
-        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/raynene/velo.git main --force
-      env:
-        # Grant write permissions to GITHUB_TOKEN
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git commit -m "🚲 VÉLO: Day $(date -u +'%d') - $(date -u +'%H:%M UTC') [Run ${{ github.run_number }}/84]"
+        git push origin main
     
     - name: Skip if no changes
       if: steps.check_changes.outputs.has_changes == 'false'
