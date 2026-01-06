@@ -40,10 +40,15 @@ jobs:
       with:
         python-version: '3.11'
     
+    # 🔥 CRITICAL FIX: Install dependencies
+    - name: Install Python dependencies
+      run: |
+        pip install requests
+    
     - name: Run vélo collection
       run: |
         echo "🚲 STARTING VÉLO COLLECTION"
-        python velo_collect.py  # ← DIFFERENT SCRIPT NAME
+        python velo_collect.py
     
     - name: Archive vélo results
       run: |
@@ -58,6 +63,15 @@ jobs:
         
         cp velo_results.json "VÉLO-BLAST/day-${DAY_NUM}/LATEST.json"
         cp velo_summary.txt "VÉLO-BLAST/day-${DAY_NUM}/LATEST.txt"
+        
+        # Create daily README
+        echo "# 🚲 VÉLO PARKING DATA - Day ${DAY_NUM} (${DATE})" > "VÉLO-BLAST/day-${DAY_NUM}/README.md"
+        echo "" >> "VÉLO-BLAST/day-${DAY_NUM}/README.md"
+        echo "## Collection Times:" >> "VÉLO-BLAST/day-${DAY_NUM}/README.md"
+        ls "VÉLO-BLAST/day-${DAY_NUM}/"velo_*.json 2>/dev/null | sort | while read file; do
+          time=$(basename "$file" | cut -d'_' -f3- | cut -d'.' -f1)
+          echo "- ${time}" >> "VÉLO-BLAST/day-${DAY_NUM}/README.md"
+        done || true
     
     - name: Configure Git
       run: |
@@ -81,3 +95,15 @@ jobs:
         git push origin main --force-with-lease
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Skip if no changes
+      if: steps.check_changes.outputs.has_changes == 'false'
+      run: echo "📭 No new vélo data to commit - skipping push"
+    
+    - name: Collection statistics
+      run: |
+        echo "📊 VÉLO COLLECTION STATS"
+        echo "========================"
+        echo "Run: ${{ github.run_number }}/84"
+        echo "Next run: in 2 hours"
+        echo "Days remaining: $(( (84 - ${{ github.run_number }}) / 12 + 1 ))"
