@@ -1,14 +1,12 @@
-# velo_collect.py - VÉLO VERSION
+# velo_collect.py - FIXED VERSION
 import requests
 import time
 import json
 from datetime import datetime
-import os
 
-# ONLY THIS LINE CHANGES:
-URL = "https://portail-api-data.montpellier3m.fr/bikeparking?limit=1000"  # ← VÉLO API
-INTERVAL = 300  # 5 minutes
-MAX_CYCLES = 3  # 15 minutes total
+URL = "https://portail-api-data.montpellier3m.fr/bikeparking?limit=1000"
+INTERVAL = 300
+MAX_CYCLES = 3
 
 def main():
     print("🚲 STARTING VÉLO PARKING COLLECTION")
@@ -19,30 +17,45 @@ def main():
     
     for cycle in range(MAX_CYCLES):
         try:
-            # Fetch VÉLO data
+            # Fetch vélo data
             response = requests.get(URL, timeout=10)
-            velo_parkings = response.json()
             
-            # Add timestamp
-            current_time = datetime.now()
-            for parking in velo_parkings:
-                parking['collecte'] = {
-                    'timestamp': current_time.isoformat(),
-                    'heure': current_time.strftime('%H:%M:%S'),
-                    'cycle': cycle + 1,
-                    'test': True
-                }
-            
-            all_data.extend(velo_parkings)
-            
-            elapsed = (current_time - start_time).total_seconds() / 60
-            print(f"✅ Cycle {cycle+1}/{MAX_CYCLES}: {len(velo_parkings)} vélo parkings at {current_time.strftime('%H:%M:%S')} (+{elapsed:.1f} min)")
+            # VÉLO API MIGHT RETURN DIFFERENT FORMAT!
+            # Try different parsing approaches:
+            if response.status_code == 200:
+                try:
+                    # Try parsing as JSON array
+                    parkings = response.json()
+                    
+                    # If it's a single object, wrap it in a list
+                    if isinstance(parkings, dict):
+                        parkings = [parkings]
+                    
+                    # Add timestamp to EACH parking record
+                    current_time = datetime.now()
+                    for parking in parkings:
+                        if isinstance(parking, dict):
+                            parking['collecte'] = {
+                                'timestamp': current_time.isoformat(),
+                                'heure': current_time.strftime('%H:%M:%S'),
+                                'cycle': cycle + 1
+                            }
+                            all_data.append(parking)
+                    
+                    elapsed = (current_time - start_time).total_seconds() / 60
+                    print(f"✅ Cycle {cycle+1}/{MAX_CYCLES}: {len(parkings)} vélo parkings at {current_time.strftime('%H:%M:%S')} (+{elapsed:.1f} min)")
+                    
+                except Exception as e:
+                    print(f"⚠️ JSON parsing error: {e}")
+                    print(f"Raw response: {response.text[:200]}...")
+            else:
+                print(f"❌ HTTP Error: {response.status_code}")
             
             if cycle < MAX_CYCLES - 1:
                 time.sleep(INTERVAL)
                 
         except Exception as e:
-            print(f"❌ Error cycle {cycle+1}: {e}")
+            print(f"❌ Error cycle {cycle+1}: {type(e).__name__}: {e}")
             time.sleep(30)
     
     if all_data:
@@ -53,17 +66,30 @@ def main():
         print(f"\n💾 VÉLO COLLECTION SUCCESSFUL!")
         print(f"📊 Saved {len(all_data)} records to '{filename}'")
         
-        # VÉLO summary file
+        # Count unique vélo stations
+        unique_stations = len(set([p.get('id', '') for p in all_data if isinstance(p, dict)]))
+        
         with open('velo_summary.txt', 'w') as f:
             f.write(f"Vélo Parking Test - {datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
             f.write(f"Total records: {len(all_data)}\n")
-            f.write(f"Vélo parkings found: {len(set([p.get('name', {}).get('value', 'Unknown') for p in all_data]))}\n")
+            f.write(f"Unique vélo stations: {unique_stations}\n")
             f.write(f"Status: ✅ SUCCESS\n")
+        
+        return len(all_data)
     
     else:
         print("❌ VÉLO COLLECTION FAILED: No data collected")
-    
-    return len(all_data)
+        
+        # Create empty files to avoid workflow crash
+        with open('velo_results.json', 'w') as f:
+            json.dump([], f)
+        
+        with open('velo_summary.txt', 'w') as f:
+            f.write("Vélo Parking Test - FAILED\n")
+            f.write("Status: ❌ NO DATA COLLECTED\n")
+            f.write("Check API format or connectivity\n")
+        
+        return 0
 
 if __name__ == "__main__":
     main()
