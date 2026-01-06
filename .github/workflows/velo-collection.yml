@@ -1,0 +1,83 @@
+name: 7-DAY VÉLO COLLECTION
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Every 2 hours
+  workflow_dispatch:
+
+jobs:
+  max-velo-collection:
+    if: github.run_number <= 84
+    
+    runs-on: ubuntu-latest
+    concurrency:
+      group: velo-blast-${{ github.ref }}
+      cancel-in-progress: true
+    
+    steps:
+    - name: Check collection period
+      run: |
+        echo "🚲 VÉLO Run number: ${{ github.run_number }}"
+        if [ ${{ github.run_number }} -gt 84 ]; then
+          echo "✅ VÉLO MISSION COMPLETE: 7 days finished!"
+          exit 0
+        fi
+    
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Force sync with remote
+      run: |
+        git fetch origin
+        git reset --hard origin/main
+        git clean -fd
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Run vélo collection
+      run: |
+        echo "🚲 STARTING VÉLO COLLECTION"
+        python velo_collect.py  # ← DIFFERENT SCRIPT NAME
+    
+    - name: Archive vélo results
+      run: |
+        DATE=$(date -u +'%Y-%m-%d')
+        DAY_NUM=$(date -u +'%d')
+        TIME=$(date -u +'%H-%M-%S')
+        
+        mkdir -p "VÉLO-BLAST/day-${DAY_NUM}"
+        
+        cp velo_results.json "VÉLO-BLAST/day-${DAY_NUM}/velo_${DATE}_${TIME}.json"
+        cp velo_summary.txt "VÉLO-BLAST/day-${DAY_NUM}/velo_summary_${DATE}_${TIME}.txt"
+        
+        cp velo_results.json "VÉLO-BLAST/day-${DAY_NUM}/LATEST.json"
+        cp velo_summary.txt "VÉLO-BLAST/day-${DAY_NUM}/LATEST.txt"
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git status --porcelain | grep -q "."; then
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push vélo data
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        git add .
+        git commit -m "🚲 VÉLO COLLECTION: Day $(date -u +'%d') - $(date -u +'%H:%M UTC') [Run ${{ github.run_number }}/84]"
+        git push origin main --force-with-lease
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
