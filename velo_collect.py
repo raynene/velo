@@ -1,6 +1,3 @@
-
-
-
 # velo_collect.py - VÉLO VERSION
 import requests
 import time
@@ -9,7 +6,7 @@ from datetime import datetime
 import os
 
 # ONLY THIS LINE CHANGES:
-URL = "https://portail-api-data.montpellier3m.fr/bikestation?limit=1000"  # ← VÉLO API
+URL = "https://portail-api-data.montpellier3m.fr/bikeparking?limit=1000"  # ← VÉLO API
 INTERVAL = 300  # 5 minutes
 MAX_CYCLES = 3  # 15 minutes total
 
@@ -69,5 +66,4 @@ def main():
     return len(all_data)
 
 if __name__ == "__main__":
-    main()
     main()
