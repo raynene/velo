@@ -4,7 +4,7 @@ import time
 import json
 from datetime import datetime
 
-URL = "https://portail-api-data.montpellier3m.fr/bikeparking?limit=1000"
+URL = "https://portail-api-data.montpellier3m.fr/bikestation?limit=1000"
 INTERVAL = 300
 MAX_CYCLES = 3
 
@@ -93,3 +93,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
