@@ -23,9 +23,13 @@ jobs:
           exit 0
         fi
     
+    # 🔥 CRITICAL FIX: Checkout with write permissions
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
+        # If you created VELO_PUSH_TOKEN secret, use it:
+        # token: ${{ secrets.VELO_PUSH_TOKEN }}
+        # Otherwise use default:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
     
@@ -40,7 +44,6 @@ jobs:
       with:
         python-version: '3.11'
     
-    # 🔥 CRITICAL FIX: Install dependencies
     - name: Install Python dependencies
       run: |
         pip install requests
@@ -77,6 +80,8 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        # Set correct remote URL for raynene/velo
+        git remote set-url origin https://github.com/raynene/velo.git
     
     - name: Check for changes
       id: check_changes
@@ -87,13 +92,16 @@ jobs:
           echo "has_changes=false" >> $GITHUB_OUTPUT
         fi
     
+    # 🔥 CRITICAL FIX: Force push with explicit permissions
     - name: Commit and push vélo data
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
         git add .
         git commit -m "🚲 VÉLO COLLECTION: Day $(date -u +'%d') - $(date -u +'%H:%M UTC') [Run ${{ github.run_number }}/84]"
-        git push origin main --force-with-lease
+        # FORCE PUSH with credentials
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/raynene/velo.git main --force
       env:
+        # Grant write permissions to GITHUB_TOKEN
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Skip if no changes
