@@ -1,16 +1,20 @@
-# test_collect.py - 15-MINUTE TEST VERSION
+
+
+
+# velo_collect.py - VÉLO VERSION
 import requests
 import time
 import json
 from datetime import datetime
 import os
 
-URL = "https://portail-api-data.montpellier3m.fr/bikestation?limit=1000"
-INTERVAL = 300  # 5 minutes for testing (not 20!)
-MAX_CYCLES = 3  # Only 3 cycles = 15 minutes total
+# ONLY THIS LINE CHANGES:
+URL = "https://portail-api-data.montpellier3m.fr/bikestation?limit=1000"  # ← VÉLO API
+INTERVAL = 300  # 5 minutes
+MAX_CYCLES = 3  # 15 minutes total
 
 def main():
-    print("🧪 STARTING GITHUB ACTIONS TEST (15 minutes)")
+    print("🚲 STARTING VÉLO PARKING COLLECTION")
     print("=" * 50)
     
     all_data = []
@@ -18,13 +22,13 @@ def main():
     
     for cycle in range(MAX_CYCLES):
         try:
-            # 1. Fetch data
+            # Fetch VÉLO data
             response = requests.get(URL, timeout=10)
-            parkings = response.json()
+            velo_parkings = response.json()
             
-            # 2. Add timestamp
+            # Add timestamp
             current_time = datetime.now()
-            for parking in parkings:
+            for parking in velo_parkings:
                 parking['collecte'] = {
                     'timestamp': current_time.isoformat(),
                     'heure': current_time.strftime('%H:%M:%S'),
@@ -32,14 +36,11 @@ def main():
                     'test': True
                 }
             
-            # 3. Store
-            all_data.extend(parkings)
+            all_data.extend(velo_parkings)
             
-            # 4. Log
             elapsed = (current_time - start_time).total_seconds() / 60
-            print(f"✅ Cycle {cycle+1}/{MAX_CYCLES}: {len(parkings)} parkings at {current_time.strftime('%H:%M:%S')} (+{elapsed:.1f} min)")
+            print(f"✅ Cycle {cycle+1}/{MAX_CYCLES}: {len(velo_parkings)} vélo parkings at {current_time.strftime('%H:%M:%S')} (+{elapsed:.1f} min)")
             
-            # 5. Wait (except last cycle)
             if cycle < MAX_CYCLES - 1:
                 time.sleep(INTERVAL)
                 
@@ -47,27 +48,26 @@ def main():
             print(f"❌ Error cycle {cycle+1}: {e}")
             time.sleep(30)
     
-    # 6. Save results
     if all_data:
-        filename = "test_results.json"
+        filename = "velo_results.json"
         with open(filename, 'w') as f:
             json.dump(all_data, f, indent=2)
         
-        print(f"\n💾 TEST SUCCESSFUL!")
+        print(f"\n💾 VÉLO COLLECTION SUCCESSFUL!")
         print(f"📊 Saved {len(all_data)} records to '{filename}'")
-        print(f"⏱️  Total test duration: {(datetime.now() - start_time).total_seconds()/60:.1f} minutes")
         
-        # Also create a simple summary file
-        with open('test_summary.txt', 'w') as f:
-            f.write(f"GitHub Actions Test - {datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
+        # VÉLO summary file
+        with open('velo_summary.txt', 'w') as f:
+            f.write(f"Vélo Parking Test - {datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
             f.write(f"Total records: {len(all_data)}\n")
-            f.write(f"Parkings found: {len(set([p.get('name', {}).get('value', 'Unknown') for p in all_data]))}\n")
+            f.write(f"Vélo parkings found: {len(set([p.get('name', {}).get('value', 'Unknown') for p in all_data]))}\n")
             f.write(f"Status: ✅ SUCCESS\n")
     
     else:
-        print("❌ TEST FAILED: No data collected")
+        print("❌ VÉLO COLLECTION FAILED: No data collected")
     
     return len(all_data)
 
 if __name__ == "__main__":
+    main()
     main()
