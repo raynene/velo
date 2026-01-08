@@ -13,17 +13,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 3,
+      "value": 1,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 9,
+      "value": 11,
       "metadata": {}
     },
     "location": {
@@ -48,8 +48,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -71,7 +71,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -102,8 +102,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -125,7 +125,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -156,8 +156,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -179,7 +179,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -210,8 +210,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -233,7 +233,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -264,8 +264,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -287,7 +287,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -318,8 +318,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -372,8 +372,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -395,7 +395,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -426,8 +426,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -449,7 +449,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -480,8 +480,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -503,7 +503,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -534,8 +534,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -557,7 +557,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -588,8 +588,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -611,7 +611,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -642,8 +642,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -665,7 +665,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -696,8 +696,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -719,7 +719,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -750,8 +750,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -773,7 +773,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -804,8 +804,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -827,7 +827,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -858,8 +858,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -881,7 +881,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -912,8 +912,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -935,7 +935,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -966,8 +966,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -989,7 +989,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1020,8 +1020,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1039,17 +1039,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 15,
+      "value": 7,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 9,
       "metadata": {}
     },
     "location": {
@@ -1074,8 +1074,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1097,7 +1097,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1128,8 +1128,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1151,7 +1151,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1182,8 +1182,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1205,7 +1205,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1236,8 +1236,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1259,7 +1259,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1290,8 +1290,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1344,8 +1344,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1398,8 +1398,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1421,7 +1421,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1452,8 +1452,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1475,7 +1475,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1506,8 +1506,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1529,7 +1529,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1560,8 +1560,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1583,7 +1583,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1614,8 +1614,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1637,7 +1637,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1668,8 +1668,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1691,7 +1691,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1722,8 +1722,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1745,7 +1745,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1776,8 +1776,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1799,7 +1799,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1830,8 +1830,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1849,17 +1849,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 15,
+      "value": 16,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 9,
+      "value": 8,
       "metadata": {}
     },
     "location": {
@@ -1884,8 +1884,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1907,7 +1907,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -1938,8 +1938,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -1957,17 +1957,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 3,
+      "value": 1,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 4,
+      "value": 6,
       "metadata": {}
     },
     "location": {
@@ -1992,8 +1992,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2015,7 +2015,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2046,8 +2046,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2069,7 +2069,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2100,8 +2100,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2123,7 +2123,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2154,8 +2154,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2177,7 +2177,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2208,8 +2208,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2231,7 +2231,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2262,8 +2262,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2281,17 +2281,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 7,
+      "value": 5,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 3,
       "metadata": {}
     },
     "location": {
@@ -2316,8 +2316,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2339,7 +2339,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2370,8 +2370,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2393,7 +2393,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2424,8 +2424,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2443,17 +2443,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 2,
+      "value": 1,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 6,
+      "value": 7,
       "metadata": {}
     },
     "location": {
@@ -2478,8 +2478,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2501,7 +2501,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2532,8 +2532,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2555,7 +2555,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2586,8 +2586,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2605,17 +2605,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 2,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 11,
+      "value": 10,
       "metadata": {}
     },
     "location": {
@@ -2640,8 +2640,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2694,8 +2694,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2717,7 +2717,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2748,8 +2748,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2771,7 +2771,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2802,8 +2802,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2825,7 +2825,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2856,8 +2856,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2879,7 +2879,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2910,8 +2910,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2933,7 +2933,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -2964,8 +2964,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -2987,7 +2987,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -3018,8 +3018,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -3041,7 +3041,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:01:07.000Z"
+          "value": "2026-01-08T08:00:10.000Z"
         }
       }
     },
@@ -3072,8 +3072,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:01:52.234287",
-      "heure": "05:01:52",
+      "timestamp": "2026-01-08T07:00:55.074442",
+      "heure": "07:00:55",
       "cycle": 1
     }
   },
@@ -3091,17 +3091,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 3,
+      "value": 1,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 9,
+      "value": 11,
       "metadata": {}
     },
     "location": {
@@ -3126,8 +3126,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3149,7 +3149,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3180,8 +3180,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3203,7 +3203,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3234,8 +3234,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3257,7 +3257,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3288,8 +3288,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3311,7 +3311,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3342,8 +3342,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3365,7 +3365,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3396,8 +3396,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3450,8 +3450,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3473,7 +3473,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3504,8 +3504,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3527,7 +3527,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3558,8 +3558,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3581,7 +3581,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3612,8 +3612,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3635,7 +3635,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3666,8 +3666,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3689,7 +3689,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3720,8 +3720,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3743,7 +3743,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3774,8 +3774,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3797,7 +3797,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3828,8 +3828,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3851,7 +3851,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3882,8 +3882,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3905,7 +3905,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3936,8 +3936,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -3959,7 +3959,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -3990,8 +3990,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4013,7 +4013,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4044,8 +4044,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4067,7 +4067,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4098,8 +4098,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4117,17 +4117,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 15,
+      "value": 7,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 9,
       "metadata": {}
     },
     "location": {
@@ -4152,8 +4152,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4175,7 +4175,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4206,8 +4206,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4229,7 +4229,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4260,8 +4260,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4283,7 +4283,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4314,8 +4314,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4337,7 +4337,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4368,8 +4368,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4422,8 +4422,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4476,8 +4476,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4499,7 +4499,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4530,8 +4530,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4553,7 +4553,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4584,8 +4584,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4607,7 +4607,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4638,8 +4638,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4661,7 +4661,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4692,8 +4692,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4715,7 +4715,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4746,8 +4746,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4769,7 +4769,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4800,8 +4800,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4823,7 +4823,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4854,8 +4854,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4877,7 +4877,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -4908,8 +4908,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4927,17 +4927,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 15,
+      "value": 16,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 9,
+      "value": 8,
       "metadata": {}
     },
     "location": {
@@ -4962,8 +4962,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -4985,7 +4985,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5016,8 +5016,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5035,17 +5035,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 3,
+      "value": 1,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 4,
+      "value": 6,
       "metadata": {}
     },
     "location": {
@@ -5070,8 +5070,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5093,7 +5093,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5124,8 +5124,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5147,7 +5147,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5178,8 +5178,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5201,7 +5201,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5232,8 +5232,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5255,7 +5255,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5286,8 +5286,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5309,7 +5309,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5340,8 +5340,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5359,17 +5359,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 7,
+      "value": 5,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 3,
       "metadata": {}
     },
     "location": {
@@ -5394,8 +5394,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5417,7 +5417,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5448,8 +5448,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5471,7 +5471,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5502,8 +5502,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5521,17 +5521,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 2,
+      "value": 1,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 6,
+      "value": 7,
       "metadata": {}
     },
     "location": {
@@ -5556,8 +5556,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5579,7 +5579,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5610,8 +5610,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5633,7 +5633,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5664,8 +5664,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5683,17 +5683,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 2,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 11,
+      "value": 10,
       "metadata": {}
     },
     "location": {
@@ -5718,8 +5718,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5772,8 +5772,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5795,7 +5795,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5826,8 +5826,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5849,7 +5849,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5880,8 +5880,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5903,7 +5903,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5934,8 +5934,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -5957,7 +5957,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -5988,8 +5988,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -6011,7 +6011,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -6042,8 +6042,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -6065,7 +6065,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -6096,8 +6096,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -6119,7 +6119,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:06:08.000Z"
+          "value": "2026-01-08T08:05:08.000Z"
         }
       }
     },
@@ -6150,8 +6150,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:06:53.531973",
-      "heure": "05:06:53",
+      "timestamp": "2026-01-08T07:05:56.158321",
+      "heure": "07:05:56",
       "cycle": 2
     }
   },
@@ -6169,17 +6169,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 3,
+      "value": 1,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 9,
+      "value": 11,
       "metadata": {}
     },
     "location": {
@@ -6204,8 +6204,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6227,7 +6227,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6258,8 +6258,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6281,7 +6281,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6312,8 +6312,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6335,7 +6335,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6366,8 +6366,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6389,7 +6389,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6420,8 +6420,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6443,7 +6443,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6474,8 +6474,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6528,8 +6528,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6551,7 +6551,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6582,8 +6582,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6605,7 +6605,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6636,8 +6636,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6659,7 +6659,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6690,8 +6690,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6713,7 +6713,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6744,8 +6744,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6767,7 +6767,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6798,8 +6798,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6821,7 +6821,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6852,8 +6852,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6875,7 +6875,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6906,8 +6906,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6929,7 +6929,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -6960,8 +6960,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -6983,7 +6983,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7014,8 +7014,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7037,7 +7037,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7068,8 +7068,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7091,7 +7091,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7122,8 +7122,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7145,7 +7145,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7176,8 +7176,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7195,17 +7195,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 15,
+      "value": 7,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 9,
       "metadata": {}
     },
     "location": {
@@ -7230,8 +7230,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7253,7 +7253,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7284,8 +7284,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7307,7 +7307,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7338,8 +7338,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7361,7 +7361,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7392,8 +7392,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7415,7 +7415,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7446,8 +7446,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7500,8 +7500,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7554,8 +7554,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7577,7 +7577,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7608,8 +7608,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7631,7 +7631,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7662,8 +7662,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7685,7 +7685,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7716,8 +7716,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7739,7 +7739,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7770,8 +7770,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7793,7 +7793,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7824,8 +7824,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7847,7 +7847,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7878,8 +7878,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7901,7 +7901,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7932,8 +7932,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -7955,7 +7955,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -7986,8 +7986,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8005,17 +8005,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 15,
+      "value": 16,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 9,
+      "value": 8,
       "metadata": {}
     },
     "location": {
@@ -8040,8 +8040,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8063,7 +8063,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8094,8 +8094,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8113,17 +8113,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 3,
+      "value": 2,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 4,
+      "value": 5,
       "metadata": {}
     },
     "location": {
@@ -8148,8 +8148,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8171,7 +8171,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8202,8 +8202,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8225,7 +8225,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8256,8 +8256,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8279,7 +8279,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8310,8 +8310,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8333,7 +8333,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8364,8 +8364,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8387,7 +8387,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8418,8 +8418,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8437,17 +8437,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 7,
+      "value": 5,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 3,
       "metadata": {}
     },
     "location": {
@@ -8472,8 +8472,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8491,17 +8491,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 6,
+      "value": 5,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 2,
+      "value": 3,
       "metadata": {}
     },
     "location": {
@@ -8526,8 +8526,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8549,7 +8549,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8580,8 +8580,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8603,7 +8603,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8634,8 +8634,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8657,7 +8657,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8688,8 +8688,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8711,7 +8711,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8742,8 +8742,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8761,17 +8761,17 @@
     },
     "availableBikeNumber": {
       "type": "Number",
-      "value": 1,
+      "value": 2,
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
     "freeSlotNumber": {
       "type": "Number",
-      "value": 11,
+      "value": 10,
       "metadata": {}
     },
     "location": {
@@ -8796,8 +8796,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8850,8 +8850,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8873,7 +8873,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8904,8 +8904,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8927,7 +8927,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -8958,8 +8958,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -8981,7 +8981,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -9012,8 +9012,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -9035,7 +9035,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -9066,8 +9066,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -9089,7 +9089,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -9120,8 +9120,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -9143,7 +9143,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -9174,8 +9174,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   },
@@ -9197,7 +9197,7 @@
       "metadata": {
         "timestamp": {
           "type": "DateTime",
-          "value": "2026-01-08T06:11:07.000Z"
+          "value": "2026-01-08T08:10:09.000Z"
         }
       }
     },
@@ -9228,8 +9228,8 @@
       "metadata": {}
     },
     "collecte": {
-      "timestamp": "2026-01-08T05:11:54.518933",
-      "heure": "05:11:54",
+      "timestamp": "2026-01-08T07:10:56.893637",
+      "heure": "07:10:56",
       "cycle": 3
     }
   }
